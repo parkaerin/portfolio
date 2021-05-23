@@ -7,10 +7,12 @@ import emoji from "react-easy-emoji";
 
 const greeting = {
   /* Your Summary And Greeting Section */
-  username: "박애린",
-  title: "안녕하세요. 박애린입니다.",
-  subTitle: emoji("A passionate Software Developer 🚀 having an experience of building Web and Mobile applications with JavaScript / Reactjs / Nodejs / React Native and some other cool libraries and frameworks."),
-  resumeLink: "https://drive.google.com/file/d/1ofFdKF_mqscH8WvXkSObnVvC9kK7Ldlu/view?usp=sharing"
+  username: "Aerin Park",
+  title: "안녕하세요.",
+  subTitle: emoji("" +
+      "Front-End 개발자 박애린입니다."
+  ),
+  resumeLink: ""
 };
 
 // Your Social Media Link
@@ -29,12 +31,12 @@ const socialMediaLinks = {
 // Your Skills Section
 
 const skillsSection = {
-  title: "What i do",
-  subTitle: "CRAZY FULL STACK DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK",
+  title: "Skills",
+  subTitle: "",
   skills: [
-    emoji("⚡ Develop highly interactive Front end / User Interfaces for your web and mobile applications"),
-    emoji("⚡ Progressive Web Applications ( PWA ) in normal and SPA Stacks"),
-    emoji("⚡ Integration of third party services such as Firebase/ AWS / Digital Ocean")
+    emoji("⚡ Cloud Web Application 개발"),
+    emoji("⚡ XP - Extreme Programming 경험"),
+    emoji("⚡ React.js 부터 Spring Framework 까지 풀스택 경험")
   ],
 
 /* Make Sure You include correct Font Awesome Classname to view your icon
@@ -50,11 +52,7 @@ https://fontawesome.com/icons?d=gallery */
       fontAwesomeClassname: "fab fa-css3-alt"
     },
     {
-      skillName: "sass",
-      fontAwesomeClassname: "fab fa-sass"
-    },
-    {
-      skillName: "JavaScript",
+      skillName: "JavaScript, TypeScript",
       fontAwesomeClassname: "fab fa-js"
     },
     {
@@ -66,15 +64,27 @@ https://fontawesome.com/icons?d=gallery */
       fontAwesomeClassname: "fab fa-node"
     },
     {
-      skillName: "swift",
-      fontAwesomeClassname: "fab fa-swift"
-    },
-    {
       skillName: "npm",
       fontAwesomeClassname: "fab fa-npm"
     },
     {
-      skillName: "sql-database",
+      skillName: "bootstrap",
+      fontAwesomeClassname: "fab fa-bootstrap"
+    },
+    {
+      skillName: "Webpack",
+      fontAwesomeClassname: "fas fa-window-restore"
+    },
+    {
+      skillName: "Java",
+      fontAwesomeClassname: "fab fa-java"
+    },
+    {
+      skillName: "Spring Framework",
+      fontAwesomeClassname: "fab fa-stripe-s"
+    },
+    {
+      skillName: "Mysql, MongoDB...",
       fontAwesomeClassname: "fas fa-database"
     },
     {
@@ -82,16 +92,8 @@ https://fontawesome.com/icons?d=gallery */
       fontAwesomeClassname: "fab fa-aws"
     },
     {
-      skillName: "firebase",
-      fontAwesomeClassname: "fas fa-fire"
-    },
-    {
-      skillName: "python",
-      fontAwesomeClassname: "fab fa-python"
-    },
-    {
-      skillName: "docker",
-      fontAwesomeClassname: "fab fa-docker"
+      skillName: "C++, MFC...",
+      fontAwesomeClassname: "fas fa-laptop-code"
     }
   ]
 };
@@ -124,29 +126,15 @@ const workExperiences = {
   experience: [
     {
       role: "Software Engineer",  
-      company: "Facebook",
-      companylogo: require("./assets/images/facebookLogo.png"),
-      date: "June 2018 – Present",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      company: "LS Electric",
+      companylogo: require("./assets/images/ls-logo.png"),
+      date: "2014.01 – Present",
+      desc: "",
       descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+        "2019~현재 - Cloud Web Front-End 개발",
+        "2014~2018 - Windows Application 개발 (XG5000)"
       ]
-    },
-    {
-      role: "Front-End Developer",   
-      company: "Quora",
-      companylogo: require("./assets/images/quoraLogo.png"),
-      date: "May 2017 – May 2018",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-    },
-    {
-      role: "Software Engineer Intern",  
-      company: "Airbnb",
-      companylogo: require("./assets/images/airbnbLogo.jpg"),
-      date: "Jan 2015 – Sep 2015",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-    },
+    }
   ]
 };
 
@@ -155,7 +143,7 @@ To know how to get github key look at readme.md */
 
 const openSource = {
   githubConvertedToken: process.env.REACT_APP_GITHUB_TOKEN,
-  githubUserName: "saadpasta", // Change to your github username to view your profile in Contact Section.
+  githubUserName: "parkaerin", // Change to your github username to view your profile in Contact Section.
   showGithubProfile :"false" // Set true or false to show Contact profile using Github, defaults to false
 };
 
@@ -181,8 +169,8 @@ const bigProjects = {
 
 const achievementSection = {
 
-  title: emoji("Achievements And Certifications 🏆 "),
-  subtitle: "Achievements, Certifications, Award Letters and Some Cool Stuff that I have done !",
+  title: emoji("Education"),
+  subtitle: "",
 
   achivementsCards: [
     {
@@ -210,6 +198,23 @@ const achievementSection = {
       footerLink: [
         { name: "Certification", url: "" },
         { name: "Final Project", url: "https://pakistan-olx-1.firebaseapp.com/" }
+      ]
+    }
+  ]
+};
+
+// Education Section
+
+export const educationInfo = {
+  display: true, // Set false to hide this section, defaults to true
+  schools: [
+    {
+      schoolName: "Hanyang University (Seoul)",
+      logo: require("./assets/images/hanyanguniv.jpg"),
+      subHeader: "컴퓨터 공학부",
+      duration: "2009.03 ~ 2014.02",
+      desc: "Computer Science & Engineering",
+      descBullets: [
       ]
     }
   ]
@@ -266,9 +271,9 @@ const podcastSection = {
 
 const contactInfo = {
   title: emoji("Contact Me ☎️"),
-  subtitle: "Discuss a project or just want to say hi? My Inbox is open for all.",
-  number: "+92-3243454077",
-  email_address: "saadpasta70@gmail.com"
+  subtitle: "",
+  number: "010-9452-5975",
+  email_address: "love90719@naver.com"
 };
 
 //Twitter Section
