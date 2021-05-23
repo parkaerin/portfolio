@@ -1,19 +1,19 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "5df731d5d56797c2c141bf97b4ce16cf",
+    "revision": "213524f98fa853fb322e7a36afce1e9a",
     "url": "/portfolio/index.html"
   },
   {
-    "revision": "87f3e732914357494719",
-    "url": "/portfolio/static/css/main.dfc9169d.chunk.css"
+    "revision": "41e243e8e5d330434208",
+    "url": "/portfolio/static/css/main.bf4aac4a.chunk.css"
   },
   {
-    "revision": "56839927baba6583f1af",
-    "url": "/portfolio/static/js/2.0a08ab3c.chunk.js"
+    "revision": "419896e8c3e93451b8bd",
+    "url": "/portfolio/static/js/2.91d248d3.chunk.js"
   },
   {
-    "revision": "87f3e732914357494719",
-    "url": "/portfolio/static/js/main.86499c4e.chunk.js"
+    "revision": "41e243e8e5d330434208",
+    "url": "/portfolio/static/js/main.a381e0bb.chunk.js"
   },
   {
     "revision": "d059865ce68d92043371",
@@ -28,10 +28,6 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/portfolio/static/media/Montserrat-Regular.ee653992.ttf"
   },
   {
-    "revision": "e47c3e26372c670c4a4eeac6eea0bf98",
-    "url": "/portfolio/static/media/airbnbLogo.e47c3e26.jpg"
-  },
-  {
     "revision": "d6d4086fb1cade58b3f786620e17c3ef",
     "url": "/portfolio/static/media/contactMail.d6d4086f.png"
   },
@@ -40,12 +36,20 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/portfolio/static/media/developerActivity.59389695.svg"
   },
   {
+    "revision": "79212cc5d03eecf79385d258e1644f3f",
+    "url": "/portfolio/static/media/hanyanguniv.79212cc5.jpg"
+  },
+  {
     "revision": "25bf045ca257e971124f3997d89f321c",
     "url": "/portfolio/static/media/logo.25bf045c.svg"
   },
   {
-    "revision": "52be31441c8cf8a8a16bd7a228d428bf",
-    "url": "/portfolio/static/media/manOnTable.52be3144.svg"
+    "revision": "575da0bcf327eba612bd429291684881",
+    "url": "/portfolio/static/media/ls-logo.575da0bc.png"
+  },
+  {
+    "revision": "c26c824fa093f4fbb161892670976360",
+    "url": "/portfolio/static/media/programmer_image.c26c824f.jpg"
   },
   {
     "revision": "3440939881da8339d1597e8d77cdf850",
