@@ -19,13 +19,25 @@ export default function StartupProject() {
           <div className="startup-project-text">
             {bigProjects.projects.map(project => {
               return (
-                <div className="saaya-health-div" onClick={() => openProjectInNewWindow(project.link)}>
-                  <img alt="Saad Working" src={project.image}></img>
+                <div className="saaya-health-div">
+                  <div className="project-title">{project.title}</div>
+                  <div className="project-period">{project.period}</div>
+                  <div className="project-image">
+                    <div className="main-image">
+                      <img src={project.image}/>
+                      {project.subImages.map(subImage => {return <img src={subImage}/> })}
+                    </div>
+                  </div>
+                  <div>
+                    <ul0 className="project-description">
+                      {project.comment.map(comment => {return <li>{comment}</li>})}
+                    </ul0>
+                  </div>
                 </div>
               );
             })}
           </div>
-          <div className="starup-project-image"></div>
+          {/*<div className="starup-project-image"></div>*/}
         </div>
       </div>
     </div>

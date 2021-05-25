@@ -40,8 +40,13 @@
   line-height: 40px;
 }
 
+.greeting-image-div {
+  display: flex;
+  justify-content: flex-end;
+}
+
 .greeting-image-div > img {
-  max-width: 100%;
+  max-width: 80%;
   height: auto;
 }
 .wave-emoji {

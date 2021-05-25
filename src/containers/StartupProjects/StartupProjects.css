@@ -22,7 +22,9 @@
 
 .startup-project-text {
   display: flex;
-  justify-content: space-between;
+  justify-content: flex-start;
+  flex-direction: column;
+  width: 100ch;
 }
 
 .project-card-description {
@@ -30,7 +32,50 @@
 }
 .saaya-health-div,
 .nextu-div {
-  cursor: pointer;
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  background-color: #fff;
+  padding: 1.5rem;
+  border-radius: 10px;
+  border: 1px solid hsla(0,0%,82.7%,.397);
+  justify-content: center;
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
+  margin-bottom: 1rem;
+
+  /*cursor: pointer;*/
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.project-title {
+  font-weight: bold;
+  font-size: 1.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.project-image {
+}
+.main-image img{
+  width: 19%;
+  height: 10rem;
+  margin-right: 0.5rem;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+}
+.sub-image {
+  width: 10%;
+}
+
+.project-period {
+  color: rgb(88, 96, 105);
+  padding: 0.5rem 0;
+}
+
+.project-description > li{
+  font-size: 1rem;
+  margin-top: 0.3rem;
+  color: #868e96;
 }
 
 @media (max-width: 768px) {

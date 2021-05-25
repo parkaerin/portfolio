@@ -35,7 +35,7 @@ const skillsSection = {
   subTitle: "",
   skills: [
     emoji("⚡ Cloud Web Application 개발"),
-    emoji("⚡ XP - Extreme Programming 경험"),
+    emoji("⚡ XP - Extreme Programming 경험 (Test-Driven Development 및 Pair Programming, Agile 문화)"),
     emoji("⚡ React.js 부터 Spring Framework 까지 풀스택 경험")
   ],
 
@@ -86,10 +86,6 @@ https://fontawesome.com/icons?d=gallery */
     {
       skillName: "Mysql, MongoDB...",
       fontAwesomeClassname: "fas fa-database"
-    },
-    {
-      skillName: "aws",
-      fontAwesomeClassname: "fab fa-aws"
     },
     {
       skillName: "C++, MFC...",
@@ -152,15 +148,71 @@ const openSource = {
 
 const bigProjects = {
   title: "Projects",
-  subtitle: "SOME STARTUPS AND COMPANIES THAT I HELPED TO CREATE THEIR TECH",
+  subtitle: "",
   projects: [
     {
-      image: "https://drive.google.com/uc?id=1exWn9T6j8TsfDDHJnS3VR66eP6RiGAfY",
-      link: "http://saayahealth.com/"
+      title: "Solution Square",
+      period: "2021.01 ~ Present",
+      image: require("./assets/images/screenshot/sss.png"),
+      subImages: [
+        require("./assets/images/screenshot/sss2.png"),
+      ],
+      comment: [
+        "Goals: 자동화 기기(PLC, HMI, Drive...) 관련 문서 조회 Portal 및 문서 검색 시스템 구축",
+        "Responsibility: Full-Stack 개발 (현재 진행 중)",
+        "Skills: React.js, Typescript, Webpack, Jest, Java, Spring Boot 2, JUnit, Mongo DB, Maria DB, Elasticsearch...",
+        "주요 개발 기능:  Social Login 구현, Elasticsearch를 통한 문서 검색 엔진 구축, 제품 카테고리 관리, Web Editor를 통한 컨텐츠 업로드 등",
+      ]
     },
     {
-      image: "https://drive.google.com/uc?id=1MXoXcQRK-pH8J82wyjCW4SJk5AxJe7tf",
-      link: "http://nextu.se/"
+      title: "O&M Cloud Monitoring",
+      period: "2020.07 ~ 2020.12",
+      image: require("./assets/images/screenshot/09.png"),
+      subImages: [
+        require("./assets/images/screenshot/10.png"),
+        require("./assets/images/screenshot/11.png"),
+        require("./assets/images/screenshot/12.png"),
+        require("./assets/images/screenshot/13.png"),
+      ],
+      comment: [
+          "Goals: 태양열 발전 Site 모니터링 Web Application",
+          "Responsibility: Full-Stack 개발",
+          "Skills: React.js, Typescript, Webpack, Jest, Java, Spring Boot 2, JUnit, Mongo DB, Maria DB...",
+          "주요 개발 기능:  Mapbox를 이용한 Site 모니터링, 기기 대시보드, Chart를 통한 초단위 기기 데이터 조회, 일정 관리 등",
+      ]
+    },
+    {
+      title: "G1 PCS Monitoring",
+      period: "2019.01 ~ 2020.06",
+      image: require("./assets/images/screenshot/04.png"),
+      subImages: [
+        require("./assets/images/screenshot/01.png"),
+        require("./assets/images/screenshot/02.png"),
+        require("./assets/images/screenshot/03.png"),
+        require("./assets/images/screenshot/08.png"),
+      ],
+      comment: [
+        "Goals: PCS 기기 모니터링",
+        "Responsibility: Front-End 및 BFF Server 개발",
+        "Skills: React.js, Typescript, Webpack, Jest, Java, Spring Boot 2, JUnit, Mongo DB, Maria DB...",
+        "주요 개발 기능:  Google Map 이용한 Site 모니터링, Chart를 통한 초단위 기기 데이터 조회, 기기 관리 일지 데이터 관리, 기기 알람 관리, Node.js 서버로 구동하는 Embedded Web 개발 등",
+      ]
+    },
+    {
+      title: "XG5000",
+      period: "2014.01 ~ 2018.12",
+      image: require("./assets/images/screenshot/16.png"),
+      subImages: [
+        require("./assets/images/screenshot/xg50002.jpg"),
+        require("./assets/images/screenshot/xg50003.jpg"),
+        require("./assets/images/screenshot/xg50004.jpg"),
+      ],
+      comment: [
+        "Goals: PLC Engineering을 위한 Windows Application 개발",
+        "Responsibility: Full-Stack 개발",
+        "Skills: C++, MFC, MySql, installShield...",
+        "주요 개발 기능: PLC 기기 프로그래밍, I/O 파라미터 설정 화면, 기종 DB 관리, 플래그 트리 기능, 모션 PLC 파라미터 관리 화면 개발, 다국어 관리, 설치 파일 관리 등",
+      ]
     }
   ]
 };
