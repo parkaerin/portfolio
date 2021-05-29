@@ -1,19 +1,19 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "729c4dbdc06c6e13fb3c5cf011f2fc12",
+    "revision": "bbdca276d4b9bc75c28f5dbd23b798b7",
     "url": "/portfolio/index.html"
   },
   {
-    "revision": "c3c072b5e69869ffb114",
-    "url": "/portfolio/static/css/main.5d01d0e8.chunk.css"
+    "revision": "96b4ee5e2527cc1fc24a",
+    "url": "/portfolio/static/css/main.8a0e61bd.chunk.css"
   },
   {
-    "revision": "581529797d33bd7d2441",
-    "url": "/portfolio/static/js/2.27954436.chunk.js"
+    "revision": "6ed27192559dc58b833f",
+    "url": "/portfolio/static/js/2.ed1de3aa.chunk.js"
   },
   {
-    "revision": "c3c072b5e69869ffb114",
-    "url": "/portfolio/static/js/main.8f9bf4f2.chunk.js"
+    "revision": "96b4ee5e2527cc1fc24a",
+    "url": "/portfolio/static/js/main.132917dc.chunk.js"
   },
   {
     "revision": "d059865ce68d92043371",
@@ -40,18 +40,6 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/portfolio/static/media/08.49803716.png"
   },
   {
-    "revision": "16842258c2863a77a8031aa09d831c42",
-    "url": "/portfolio/static/media/09.16842258.png"
-  },
-  {
-    "revision": "de343e5a9085d4f5a6fc0503bb7f1d4a",
-    "url": "/portfolio/static/media/10.de343e5a.png"
-  },
-  {
-    "revision": "921bc731e4393977cbe3bc69f3d6a2d0",
-    "url": "/portfolio/static/media/11.921bc731.png"
-  },
-  {
     "revision": "e591aa0d86620d00cc6295b2d47877cf",
     "url": "/portfolio/static/media/12.e591aa0d.png"
   },
@@ -76,10 +64,6 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/portfolio/static/media/contactMail.d6d4086f.png"
   },
   {
-    "revision": "59389695208d7454c6607bed51ed4316",
-    "url": "/portfolio/static/media/developerActivity.59389695.svg"
-  },
-  {
     "revision": "79212cc5d03eecf79385d258e1644f3f",
     "url": "/portfolio/static/media/hanyanguniv.79212cc5.jpg"
   },
@@ -92,8 +76,16 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/portfolio/static/media/ls-logo.575da0bc.png"
   },
   {
-    "revision": "c26c824fa093f4fbb161892670976360",
-    "url": "/portfolio/static/media/programmer_image.c26c824f.jpg"
+    "revision": "a129deb36c7e6a4b251b33560e5ec17b",
+    "url": "/portfolio/static/media/onmdashboard.a129deb3.PNG"
+  },
+  {
+    "revision": "3c04199c2fbd8e92bd57581e02c74936",
+    "url": "/portfolio/static/media/onmlogin.3c04199c.PNG"
+  },
+  {
+    "revision": "2855a3ac421da411ff427beb7bb0d124",
+    "url": "/portfolio/static/media/onmsitedash.2855a3ac.PNG"
   },
   {
     "revision": "7c08752c1e47549135301a622932e11a",
