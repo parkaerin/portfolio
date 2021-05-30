@@ -5,7 +5,7 @@ import {Fade} from "react-reveal";
 
 export default function StartupProject() {
     return (
-        <Fade bottom duration={1000} distance="20px">
+        // <Fade bottom duration={1000} distance="20px">
             <div className="main" id="projects">
                 <div>
                     <h1 className="skills-heading">{bigProjects.title}</h1>
@@ -40,6 +40,6 @@ export default function StartupProject() {
                     </div>
                 </div>
             </div>
-        </Fade>
+        // </Fade>
     );
 }
