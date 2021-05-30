@@ -4,7 +4,6 @@ import {bigProjects} from "../../portfolio";
 import {Fade} from "react-reveal";
 
 export default function StartupProject() {
-    const titleStyle = {"color": "#666"};
     return (
         <Fade bottom duration={1000} distance="20px">
             <div className="main" id="projects">
@@ -27,12 +26,12 @@ export default function StartupProject() {
                                             </div>
                                         </div>
                                         <div>
-                                            <ul0 className="project-description">
-                                                <li><b style={titleStyle}>Goals</b> {project.comment[0]}</li>
-                                                <li><b style={titleStyle}>Responsibility</b> {project.comment[1]}</li>
-                                                <li><b style={titleStyle}>Skills</b> {project.comment[2]}</li>
-                                                <li><b style={titleStyle}>주요 개발 기능</b> {project.comment[3]}</li>
-                                            </ul0>
+                                            <div className="project-description">
+                                                <p><b>Goals</b> {project.comment[0]}</p>
+                                                <p><b>Responsibility</b> {project.comment[1]}</p>
+                                                <p><b>Skills</b> {project.comment[2]}</p>
+                                                <p><b>주요 개발 기능</b> {project.comment[3]}</p>
+                                            </div>
                                         </div>
                                     </div>
                                 );
