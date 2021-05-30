@@ -1,10 +1,8 @@
 .dev-icons {
     padding-left: 0;
     list-style: none;
-    font-size: 1.2rem;
     margin-bottom: 0px;
     margin-top: 0px;
-    margin-bottom: 1.5rem;
 }
 
 .dev-icons > li > p:hover {
@@ -31,9 +29,30 @@
 
 .software-skill-inline > p {
     color: #868e96;
-    font-size: 1.5rem;
+    /*font-size: 1.2rem;*/
 }
 
 .software-skill-inline > i:hover ~ p {
     color: #645beb;
+}
+
+@media (min-width: 768px) {
+    .dev-icons {
+        margin-bottom: 1.5rem;
+    }
+
+    .software-skill-inline > p {
+        color: #868e96;
+        font-size: 1.5rem;
+    }
+}
+
+@media (max-width: 768px) {
+    .dev-icons {
+        margin-bottom: 1rem;
+    }
+    .software-skill-inline > p {
+        color: #868e96;
+        font-size: 1.2rem;
+    }
 }
