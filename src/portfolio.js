@@ -66,13 +66,14 @@ const skillsSection = {
     ],
 
     softwareExperiencedSkills: [
+        {skillName: "Jenkins"},
         {skillName: "nodejs"},
         {skillName: "Redis"},
         {skillName: "AWS"},
         {skillName: "Spring Security"},
         {skillName: "OAuth 2"},
         {skillName: "SAML"},
-        {skillName: "Logstash"},
+        {skillName: "Ubuntu"},
     ]
 };
 
@@ -137,7 +138,8 @@ const bigProjects = {
             period: "2021.01 ~ Present",
             image: require("./assets/images/screenshot/sss.png"),
             subImages: [
-                require("./assets/images/screenshot/sss2.png"),
+                require("./assets/images/screenshot/sss3.png"),
+                require("./assets/images/screenshot/sss4.png"),
             ],
             comment: [
                 "자동화 기기(PLC, HMI, Drive...) 관련 문서 조회 Portal 및 문서 검색 시스템 구축",
@@ -165,7 +167,7 @@ const bigProjects = {
         },
         {
             title: "G1 PCS Monitoring",
-            period: "2019.01 ~ 2020.06",
+            period: "2019.09 ~ 2020.06",
             image: require("./assets/images/screenshot/04.png"),
             subImages: [
                 require("./assets/images/screenshot/01.png"),
