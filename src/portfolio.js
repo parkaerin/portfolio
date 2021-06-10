@@ -55,10 +55,8 @@ const skillsSection = {
         {skillName: "Webpack"},
         {skillName: "Git"},
         {skillName: "Java"},
-        {skillName: "Spring Framework"},
         {skillName: "Spring Boot 2"},
         {skillName: "JUnit 5"},
-        {skillName: "Elasticsearch"},
         {skillName: "Mysql"},
         {skillName: "MongoDB"},
         {skillName: "C++"},
@@ -66,14 +64,13 @@ const skillsSection = {
     ],
 
     softwareExperiencedSkills: [
+        {skillName: "Elasticsearch"},
         {skillName: "Jenkins"},
         {skillName: "nodejs"},
-        {skillName: "Redis"},
         {skillName: "AWS"},
         {skillName: "Spring Security"},
         {skillName: "OAuth 2"},
         {skillName: "SAML"},
-        {skillName: "Ubuntu"},
     ]
 };
 
