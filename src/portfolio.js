@@ -317,7 +317,7 @@ const contactInfo = {
     title: emoji("Contact Me ☎️"),
     subtitle: "",
     number: "010-9452-5975",
-    email_address: "love90719@naver.com"
+    email_address: "love90719@gmail.com"
 };
 
 //Twitter Section
