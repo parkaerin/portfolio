@@ -33,11 +33,13 @@ const skillsSection = {
     title: "Skills",
     subTitle: "",
     skills: [
-        emoji("⚡ Cloud Web Application 개발"),
-        emoji("⚡ Agile 문화"),
-        emoji("⚡ Pair Programming"),
-        emoji("⚡ Test-Driven Development"),
-        emoji("⚡ React.js 부터 Spring Framework 까지 풀스택 경험")
+        emoji("⚡ React.js, Typescript 기반의 Front-End 개발자"),
+        emoji("⚡ Webpack 및 map/chart/editor/MobX 등 다양한 라이브러리 경험"),
+        emoji("⚡ 대량의 데이터(초당 수천 건)가 실시간으로 업데이트 되는 기기 모니터링 Web Application 화면 개발 경험"),
+        emoji("⚡ pdf,MSoffice기반문서검색을주기능으로하는검색포털사이트개발경험"),
+        emoji("⚡ 2년 간 개발자 간 소통을 극대화하고 항상 최선의 코드를 작성하는 Test-Driven Development, Pair Prog ramming 진행"),
+        emoji("⚡ RESTful API 기반의 Microservice Architecture 경험 및 AWS/Azure Cloud 인프라 기반 CI/CD 경험"),
+        emoji("⚡ Java/C++ 개발 경험을 보유하여 새로운 언어를 빠르게 습득하고, Front-End 개발 시에도 다각적인 접근 가 능")
     ],
 
     /* Make Sure You include correct Font Awesome Classname to view your icon
@@ -56,21 +58,18 @@ const skillsSection = {
         {skillName: "Git"},
         {skillName: "Java"},
         {skillName: "Spring Boot 2"},
-        {skillName: "JUnit 5"},
-        {skillName: "Mysql"},
-        {skillName: "MongoDB"},
-        {skillName: "C++"},
-        {skillName: "MFC"}
+        {skillName: "C++"}
     ],
 
     softwareExperiencedSkills: [
+        {skillName: "JUnit 5"},
+        {skillName: "Mysql"},
+        {skillName: "MongoDB"},
         {skillName: "Elasticsearch"},
         {skillName: "Jenkins"},
         {skillName: "nodejs"},
         {skillName: "AWS"},
-        {skillName: "Spring Security"},
-        {skillName: "OAuth 2"},
-        {skillName: "SAML"},
+        {skillName: "Spring Security"}
     ]
 };
 
@@ -140,9 +139,9 @@ const bigProjects = {
             ],
             comment: [
                 "자동화 기기(PLC, HMI, Drive...) 관련 문서 조회 Portal 및 문서 검색 시스템 구축",
-                "Full-Stack 개발",
+                "40% (업무 비율: Front-End 개발 70%, Back-End 개발 30%)",
                 "React.js, Typescript, Webpack, Jest, MobX, Java, Spring Boot 2, JUnit, Mongo DB, Maria DB, Elasticsearch...",
-                "Social Login 구현, Elasticsearch를 통한 문서 검색 엔진 구축, 제품 카테고리 관리, Web Editor를 통한 컨텐츠 업로드 등",
+                "문서 파일 업로드 및 검색 페이지 구현, Social Login 구현, Elasticsearch를 통한 문서 검색 엔진 구축, 제품 카테고리 관리, Web Editor를 통한 컨텐츠 업로드 등",
             ]
         },
         {
@@ -157,7 +156,7 @@ const bigProjects = {
             ],
             comment: [
                 "태양열 발전 Site 모니터링 Web Application",
-                "Front-End 및 BFF (Back-End For Front-End) 서버 개발",
+                "20% (업무 비율: Front-End 개발 80%, BFF 서버 개발 20%)",
                 "React.js, Typescript, Webpack, Jest, Java, Spring Boot 2, JUnit, Mongo DB, Maria DB...",
                 " Mapbox를 이용한 Site 모니터링, 기기 대시보드, Chart를 통한 초단위 기기 데이터 조회, 일정 관리 등",
             ]
@@ -174,7 +173,7 @@ const bigProjects = {
             ],
             comment: [
                 "PCS 기기 모니터링",
-                "Front-End 및 BFF (Back-End For Front-End) Server 개발",
+                "15% (업무 비율: Front-End 개발 70%, BFF 서버 개발 30%)",
                 "React.js, Typescript, Webpack, Jest, Java, Spring Boot 2, JUnit, Mongo DB, Maria DB...",
                 " Google Map 이용한 Site 모니터링, Chart를 통한 초단위 기기 데이터 조회, 기기 관리 일지 데이터 관리, 기기 알람 관리, Node.js 서버로 구동하는 Embedded Web 개발 등",
             ]
@@ -190,7 +189,7 @@ const bigProjects = {
             ],
             comment: [
                 "PLC Engineering을 위한 Windows Application 개발",
-                "Full-Stack 개발",
+                "프로젝트 유지 보수, Full-Stack 개발",
                 "C++, MFC, MySql, installShield...",
                 "PLC 기기 프로그래밍, I/O 파라미터 설정 화면, 기종 DB 관리, 플래그 트리 기능, 모션 PLC 파라미터 관리 화면 개발, 다국어 관리, 설치 파일 관리 등",
             ]

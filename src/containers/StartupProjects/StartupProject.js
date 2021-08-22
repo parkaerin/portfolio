@@ -28,8 +28,8 @@ export default function StartupProject() {
                                         </div>
                                         <div>
                                             <div className="project-description">
-                                                <p><span style={titleStyle}>Goals</span> {project.comment[0]}</p>
-                                                <p><span style={titleStyle}>Responsibility</span> {project.comment[1]}</p>
+                                                <p><span style={titleStyle}>요약</span> {project.comment[0]}</p>
+                                                <p><span style={titleStyle}>프로젝트 기여도</span> {project.comment[1]}</p>
                                                 <p><span style={titleStyle}>Skills</span> {project.comment[2]}</p>
                                                 <p><span style={titleStyle}>주요 개발 기능</span> {project.comment[3]}</p>
                                             </div>
