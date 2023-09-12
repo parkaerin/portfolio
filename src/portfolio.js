@@ -33,13 +33,14 @@ const skillsSection = {
     title: "Skills",
     subTitle: "",
     skills: [
-        emoji("⚡ React.js, Typescript 기반의 Front-End 개발자"),
-        emoji("⚡ Webpack 및 map/chart/editor/MobX 등 다양한 라이브러리 경험"),
-        emoji("⚡ 대량의 데이터(초당 수천 건)가 실시간으로 업데이트 되는 기기 모니터링 Web Application 화면 개발 경험"),
-        emoji("⚡ pdf,MS office 기반 문서 검색을 주기능으로 하는 검색 포털 사이트 개발 경험"),
-        emoji("⚡ 2년 간 개발자 간 소통을 극대화하고 항상 최선의 코드를 작성하는 Test-Driven Development, Pair Programming 진행"),
-        emoji("⚡ RESTful API 기반의 Microservice Architecture 경험 및 AWS/Azure Cloud 인프라 기반 CI/CD 경험"),
-        emoji("⚡ Java/C++ 개발 경험을 보유하여 새로운 언어를 빠르게 습득하고, Front-End 개발 시에도 다각적인 접근 가능")
+        "- React.js, Typescript 기반의 Front-End 개발자",
+        "- Webpack 및 map/chart/editor/MobX 등 다양한 라이브러리 경험",
+        "- 대량의 데이터(초당 수천 건)가 실시간으로 업데이트 되는 기기 모니터링 Web Application 화면 개발 경험",
+        "- pdf,MS office 기반 문서 검색을 주기능으로 하는 검색 포털 사이트 개발 경험",
+        "- 2년 간 개발자 간 소통을 극대화하고 항상 최선의 코드를 작성하는 Test-Driven Development, Pair Programming 진행",
+        "- RESTful API 기반의 Microservice Architecture 경험 및 AWS/Azure Cloud 인프라 기반 CI/CD 경험",
+        "- Java/C++ 개발 경험을 보유하여 새로운 언어를 빠르게 습득하고, Front-End 개발 시에도 다각적인 접근 가능",
+        "- e-Commerce에서 주요 트래픽을 차지하는 검색 페이지 FE 개발 담당"
     ],
 
     /* Make Sure You include correct Font Awesome Classname to view your icon
@@ -100,10 +101,20 @@ const workExperiences = {
     viewExperiences: true, //Set it to true to show workExperiences Section
     experience: [
         {
-            role: "Software Engineer",
+            role: "FE 개발자",
+            company: "11번가",
+            companylogo: require("./assets/images/11st-logo.png"),
+            date: "2021.11 – Present",
+            desc: "",
+            descBullets: [
+                "11번가 검색 페이지 Front-End 개발"
+            ]
+        },
+        {
+            role: "풀스택 개발자",
             company: "LS Electric",
             companylogo: require("./assets/images/ls-logo.png"),
-            date: "2014.01 – Present",
+            date: "2014.01 – 2021.11",
             desc: "",
             descBullets: [
                 "2019~현재 - Cloud Web Application 개발",
@@ -130,8 +141,33 @@ const bigProjects = {
     subtitle: "",
     projects: [
         {
+            title: "11번가 검색페이지",
+            period: "2021.11 ~ Present",
+            image: require("./assets/images/screenshot/11st-pc.png"),
+            subImages: [],
+            mobileImages: [
+                require("./assets/images/screenshot/11st-mw.png"),
+            ],
+            comment: [
+                "검색 페이지 Front-End 개발 및 유지보수",
+                "파트원 3명이서 검색페이지 전체 FE 담당",
+                "React.js, Typescript, Webpack, Mobx",
+                "PC 페이지 전체 리뉴얼, MW 다양한 컬렉션 개발, 배포 및 성능 관련 트러블 슈팅 경험 다수",
+            ],
+            link: [
+                {
+                    text: '모바일 페이지',
+                    linkUrl: 'http://search.11st.co.kr/MW/search?searchKeyword=%25EC%25A0%2591%25EC%258B%259C'
+                },
+                {
+                    text: 'PC 페이지',
+                    linkUrl: 'https://search.11st.co.kr/pc/total-search?kwd=%25EA%25B3%25BC%25EC%259E%2590'
+                }
+            ]
+        },
+        {
             title: "Solution Square",
-            period: "2021.01 ~ Present",
+            period: "2021.01 ~ 2021.11",
             image: require("./assets/images/screenshot/sss.png"),
             subImages: [
                 require("./assets/images/screenshot/sss3.png"),
@@ -142,6 +178,12 @@ const bigProjects = {
                 "40% (업무 비율: Front-End 개발 70%, Back-End 개발 30%)",
                 "React.js, Typescript, Webpack, Jest, MobX, Java, Spring Boot 2, JUnit, Mongo DB, Maria DB, Elasticsearch...",
                 "문서 파일 업로드 및 검색 페이지 구현, Social Login 구현, Elasticsearch를 통한 문서 검색 엔진 구축, 제품 카테고리 관리, Web Editor를 통한 컨텐츠 업로드 등",
+            ],
+            link: [
+                {
+                    text: '솔루션 스퀘어 (반응형)',
+                    linkUrl: 'https://sol.ls-electric.com/kr/ko/main'
+                },
             ]
         },
         {

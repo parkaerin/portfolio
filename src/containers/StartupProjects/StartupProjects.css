@@ -74,6 +74,13 @@
     border: 1px solid rgba(0, 0, 0, 0.1);
 }
 
+.main-image .mw {
+    width: 7rem;
+    height: 12rem;
+    margin-right: 0.5rem;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+}
+
 .sub-image {
     width: 10%;
 }
@@ -92,6 +99,16 @@
     margin-bottom: 0.5rem;
     color: #868e96;
     list-style: none;
+    padding: 0;
+}
+
+.project-description > p > ul {
+    font-size: 1rem;
+    margin-top: 0.3rem;
+    margin-left: 1rem;
+    margin-bottom: 0.5rem;
+    color: #868e96;
+    list-style: circle;
     padding: 0;
 }
 

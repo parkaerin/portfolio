@@ -21,8 +21,11 @@ export default function StartupProject() {
                                         <div className="project-image">
                                             <div className="main-image">
                                                 <img src={project.image}/>
-                                                {project.subImages.map(subImage => {
+                                                {project.subImages && project.subImages.map(subImage => {
                                                     return <img src={subImage}/>
+                                                })}
+                                                {project.mobileImages && project.mobileImages.map(mobileImage => {
+                                                    return <img className="mw" src={mobileImage}/>
                                                 })}
                                             </div>
                                         </div>
@@ -32,6 +35,7 @@ export default function StartupProject() {
                                                 <p><span style={titleStyle}>프로젝트 기여도</span> {project.comment[1]}</p>
                                                 <p><span style={titleStyle}>Skills</span> {project.comment[2]}</p>
                                                 <p><span style={titleStyle}>주요 개발 기능</span> {project.comment[3]}</p>
+                                                <p><span style={titleStyle}>링크</span> {project.link && <ul>{project.link.map(item => <li><a href={item.linkUrl}>{item.text}</a></li>)}</ul>}</p>
                                             </div>
                                         </div>
                                     </div>

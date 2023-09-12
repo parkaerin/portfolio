@@ -12,7 +12,7 @@ export default function SoftwareSkill() {
                         return (
                             <li className="software-skill-inline" name={skills.skillName}>
                                 <p>
-                                    {emoji("🔸" + skills.skillName)}
+                                    {"🔸" + skills.skillName}
                                 </p>
                             </li>
                         );
@@ -23,7 +23,7 @@ export default function SoftwareSkill() {
                     {skillsSection.softwareExperiencedSkills.map(skills => {
                         return (
                             <li className="software-skill-inline" name={skills.skillName}>
-                                <p>{emoji("🔹" + skills.skillName)}</p>
+                                <p>{"🔹" + skills.skillName}</p>
                             </li>
                         );
                     })}
